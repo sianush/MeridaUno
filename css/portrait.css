@@ -1,0 +1,116 @@
+
+/* ***************GENERALES*************** */
+
+
+
+.invertir{
+    grid-template: repeat(5, 1fr) / repeat( 2, 1fr);
+    height:550px;
+}
+
+.ventajas{
+    grid-template: repeat(12, 1fr) / repeat(1, 1fr);
+    height: 1480px;
+}
+
+/* ***************VENTAJAS*************** */
+
+.ventajas-titulo{
+    grid-column: 1/2;
+    grid-row: 1/2; 
+}
+
+.ventajas-somos{
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+
+.ventajas-somos__listado{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    
+}
+
+.ventajas-seguridad{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.ventajas-seguridad__descripcion{
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+.ventajas-seguridad__listado{
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+
+.ventajas-innovacion{
+    grid-column: 1/2;
+    grid-row: 7/8;
+}
+
+.ventajas-innovacion__descripcion{
+    grid-column: 1/2;
+    grid-row: 8/9;
+}
+
+.ventajas-innovacion__imagen{
+    grid-column: 1/2;
+    grid-row: 9/10;
+}
+.ventajas-pasion, .ventajas-innovacion, .ventajas-seguridad{
+    background-color: var(--LightGreen);
+    color: var(--DarkGray);
+}
+.ventajas-pasion{
+    grid-column: 1/2;
+    grid-row: 10/11;
+}
+
+.ventajas-pasion__descripcion{
+    grid-column: 1/2;
+    grid-row: 11/12;
+}
+
+.ventajas-pasion__imagen{
+    grid-column: 1/2;
+    grid-row: 12/13; 
+}
+
+/* **************** **************** ***************INVERTIR* **************** *************** *************** */
+.invertir-titulo{
+    grid-column: 1/ 3;
+    grid-row: 1 /2;
+}
+
+.invertir-redaccion{
+        grid-column: 1/3;
+        grid-row: 2/3;
+}
+.invertir-empresas{
+    grid-column: 1/2;
+     grid-row: 3/4;
+    background-color: var(--DarkGreen);
+}
+
+.invertir-empresas__nombres{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.invertir-premios{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-color: var(--DarkGreen);
+}
+
+.invertir-premios__nombres{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.linea-5{
+    display: none;
+}

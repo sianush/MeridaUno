@@ -1,0 +1,121 @@
+
+/* ***************GENERALES*************** */
+.invertir, .ventajas{
+    gap:10px;
+
+}
+.invertir{
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    height: 600px;
+
+}
+
+.ventajas{
+    grid-template: repeat(8, 1fr) / repeat(2, 1fr);
+    height: 1000px;
+}
+
+/* ***************VENTAJAS*************** */
+
+.ventajas-titulo{
+    grid-column: 1/3;
+    grid-row: 1/2; 
+}
+
+.ventajas-somos{
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+
+.ventajas-somos__listado{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+}
+
+.ventajas-seguridad{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.ventajas-seguridad__descripcion{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.ventajas-seguridad__listado{
+    grid-column: 2/3;
+    grid-row: 3/5;
+}
+
+.ventajas-innovacion{
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+.ventajas-innovacion__descripcion{
+    grid-column: 2/3;
+    grid-row: 5/7;
+}
+
+.ventajas-innovacion__imagen{
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+
+.ventajas-pasion{
+    grid-column: 1/2;
+    grid-row: 7/8;
+}
+
+.ventajas-pasion__descripcion{
+    grid-column: 2/3;
+    grid-row: 7/9;
+}
+
+.ventajas-pasion__imagen{
+    grid-column: 1/2;
+    grid-row: 8/9; 
+}
+
+/* **************** **************** ***************INVERTIR* **************** *************** *************** */
+.invertir-titulo{
+    grid-column: 1/ 3;
+    grid-row: 1 /2;
+}
+
+.invertir-redaccion{
+        grid-column: 1/3;
+        grid-row: 2/3;
+}
+.invertir-empresas{
+    grid-column: 1/2;
+     grid-row: 4/5;
+}
+
+.invertir-empresas__nombres{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.invertir-premios{
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+.invertir-premios__nombres{
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+.linea-5{
+    background-image:url("https://i.ibb.co/rwpN12w/l-linea5.png") ;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+ 
+}
+
+.linea-1, .linea-2, .linea-3, .linea-4{
+    display: none;
+}

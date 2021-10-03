@@ -1,0 +1,202 @@
+:root{
+    --LightGreen: #82E8E1;
+    --DarkGreen: #31C9BA;
+    --lightRed: #E20A4D;
+    --DarkRed: #AB0038;
+    --DarkGray: #666666;
+    --LigthGray: #e4e4e4;
+    --fontPage: 'Montserrat', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    height: 100vh;
+}
+
+/* ***************GENERALES*************** */
+.invertir, .ventajas{
+    width: 90%;
+    height: 600px;
+    display: grid;
+    font-family: var(--fontPage);
+    border: 2px solid var(--DarkGray);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.invertir{
+    grid-template: repeat(6, 1fr) / repeat(10, 1fr);
+}
+
+.ventajas{
+    grid-template: repeat(7, 1fr) / repeat(3, 1fr);
+}
+
+/* ***************VENTAJAS*************** */
+.ventajas{
+    background-color: var(--DarkGray);
+    color: white;
+}
+
+.ventajas-titulo{
+    background-color: var(--DarkGreen);
+    grid-column: 1/4;
+    grid-row: 1/2; 
+}
+
+.ventajas-somos{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.ventajas-somos__listado{
+    grid-column: 1/2;
+    grid-row: 3/8;
+}
+
+.ventajas-seguridad{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.ventajas-seguridad__descripcion{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.ventajas-seguridad__listado{
+    grid-column: 2/3;
+    grid-row: 4/8;
+}
+
+.ventajas-innovacion{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.ventajas-innovacion__descripcion{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.ventajas-innovacion__imagen{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    background-image: url("https://i.ibb.co/8X9F0Z0/ideas-Random-innovacion.png");
+}
+
+.ventajas-pasion{
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+
+.ventajas-pasion__descripcion{
+    grid-column: 3/4;
+    grid-row: 6/7;
+}
+
+.ventajas-pasion__imagen{
+    grid-column: 3/4;
+    grid-row: 7/8;
+    background-image: url("https://i.ibb.co/khKjJmx/ideas-Random-pasion.png");
+}
+
+.ventajas-innovacion__imagen, .ventajas-pasion__imagen{
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+   
+}
+
+.ventajas-innovacion__descripcion, .ventajas-pasion__descripcion, .ventajas-seguridad__descripcion, .ventajas-somos__listado, .ventajas-seguridad__listado{
+    padding: 10%;
+    font-size: 1.3rem;
+}
+
+.ventajas-seguridad__listado, .ventajas-somos__listado{
+    text-align: start;
+}
+
+/* ***************INVERTIR *************** */
+.invertir-titulo{
+    color: var(--DarkGreen);
+    grid-column: 7/ 11;
+    grid-row: 1 / 3;
+    font-size: 2.6rem;
+}
+
+.invertir-redaccion, .invertir-empresas, .invertir-premios{
+    background-color: var(--DarkGray);
+    color: white;
+    font-size: 1.3rem;
+    padding: 20px;
+    font-weight: 100;
+}
+
+.invertir-redaccion{
+        grid-column: 1/5;
+        grid-row: 1/3;
+}
+.invertir-empresas{
+    grid-column: 2/6;
+     grid-row: 4/5;
+}
+
+.invertir-empresas__nombres{
+    grid-column: 7/11;
+    grid-row: 4/5;
+    padding: 10%;
+    font-size: 1.2rem;
+}
+
+.invertir-premios{
+    grid-column: 2/6;
+    grid-row: 6/7;
+}
+
+.invertir-premios__nombres{
+    padding: 10%;
+    grid-column: 7/11;
+    grid-row: 6/7;
+    font-size: 1.2rem;
+}
+
+.linea-1{
+    grid-column: 5/9;
+    grid-row: 2/3;    
+    background-image: url("https://i.ibb.co/5GVbrM3/l-linea-Uno.png");
+}
+
+.linea-2{
+    grid-column: 1/2;
+    grid-row: 3/7;
+    background-image: url("https://i.ibb.co/1rvc2K1/l-linea2.png");
+}
+
+.linea-3{
+    grid-column: 6/7;
+    grid-row: 4/5;
+    background-image: url("https://i.ibb.co/MhWJG7X/l-linea3.png");
+}
+
+.linea-4{
+    grid-column: 6/7;
+    grid-row: 6/7;
+    background-image: url("https://i.ibb.co/MhWJG7X/l-linea3.png");
+}
+
+.linea-2{
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+.linea-1, .linea-3, .linea-4{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+/* ***************GENERALES*************** */
